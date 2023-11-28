@@ -1,6 +1,6 @@
 const testFuncs = require("../../test-api/index.js");
 // Change only line three
-const mathFunctions = require("./utils/mathFunctions");
+const {addNumbers, multiplyNumbers, squareNumber, divideNumbers, isEven, getSquareRoot} = require("./utils/mathFunctions");
 // Change only line three
 
 /* 
