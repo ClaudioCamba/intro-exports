@@ -5,4 +5,4 @@ const somethingFromFile4 = require('./examples/file-4'); // { add: [Function: ad
 const somethingFromFile5 = require('./examples/file-5'); // { printHello: [Function: printHello], add: [Function: add] }
 const somethingFromFile6 = require('./examples/file-6'); // {}
 
-console.log(somethingFromFile6);
+
