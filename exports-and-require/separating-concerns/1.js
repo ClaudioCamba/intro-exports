@@ -21,10 +21,13 @@ sumPurchases(item1, item2)
  returns
 
 */
-
+const convertPound = require("./utils/convertToPounds.js");
 function sumPurchases(item1, item2) {
   // remember to require in at least 1 util function help you solve this problem!
+  const total = convertPound(item1.cost,item1.exchangeRate) + convertPound(item2.cost,item2.exchangeRate);
+  return Number(total.toFixed(2));
 }
+
 
 runTest("sumPurchases() returns sum total of item conversions", function () {
   check(
